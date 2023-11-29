@@ -1,0 +1,281 @@
+/* 
+.plane {
+    margin: 100px auto;
+    max-width: 340px;
+} */
+
+/* .seat input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+} */
+
+/* .seat input[type=checkbox]:checked+label {
+    background: #bada55;
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+} */
+
+/* .seat input[type=checkbox]:disabled+label {
+    background: #dddddd;
+} */
+
+/* .seat input[type=checkbox]:disabled+label:after {
+    content: "";
+    text-indent: 0;
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.seat input[type=checkbox]:disabled+label:hover {
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+.seat label {
+    display: block;
+    position: relative;
+    margin:4px;
+    height:30px;
+    width: 40px;
+    text-align: center;
+    font-size: 14px;
+    padding: 4px 0px;
+    background: #e15d68;
+    border-radius: 5px;
+    animation-duration: 300ms;
+    transition: rubberBand;
+}
+
+
+.seat label:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0px 2px #5C6AFF;
+}
+
+ @keyframes rubberBand {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+} */
+
+/* 
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    /* background-color: #f0f0f0; */
+/* } */
+/* 
+.container {
+    text-align: center;
+}
+
+.bus-layout {
+    border: 2px solid #333;
+    padding: 10px;
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.seat.selected {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+
+.rows {
+    /* display: flex; */
+    /* margin-bottom: 10px; */
+  /* }
+  .seat {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* display:block; */
+  /* } */
+  /* .seat:hover{
+    background-color: green;
+  }
+  col-lg-1{
+      padding:0;
+  }
+
+  
+    
+  
+  .selected {
+    background-color: yellow; 
+  }
+  
+  .booked {
+    background-color: red; 
+  }
+  
+  .seatbox{
+    background-color: #000000c1;
+    min-height: 50px;
+    min-width: 50px;
+    padding: 100px;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .bookbusbutton{
+    min-width: 30%;
+    height: 40px;
+    padding:8px;
+     margin: 50px 15px;
+  }
+
+  #show{
+background-color:white;
+height:100px;
+width:100px;
+color:black;
+  }  */
+
+  /* body {
+    font-family: Arial, sans-serif;
+  }
+
+  .bus {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+
+  .seat {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+  }
+
+  .seat.occupied {
+    background-color: #e74c3c;
+    color: #fff;
+  } */
+
+
+
+
+  /* body {
+    font-family: Arial, sans-serif;
+  }
+
+  .bus {
+    display: grid;
+    grid-template-columns: repeat(6, 70px);
+    gap: 14px;
+  }
+
+  .seat {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 14px;
+  }
+
+  .seat.occupied {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+
+  .seat.selected {
+    background-color: #3498db;
+    color: #fff;
+  }
+
+  #selected-seats {
+    margin-top: 20px;
+  }
+
+  #error-message {
+    color: #e74c3c;
+    font-weight: bold;
+  } */
+
+
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+
+  body{
+    background-color:aquamarine;
+  }
+
+  /* .seatbox{
+    background-color: rgba();
+  } */
+
+
+  .seat{
+      height:50px;
+      width:60px;   
+      background-color:white;
+      margin:10px;
+  }
+

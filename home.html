@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light" style="background-color: lightblue">
+            <div class="container-fluid">
+                <a class="navbar-brand">Bus Reservation</a>
+                <form class="d-flex">
+                    <button class="btn btn-outline-success" type="submit"><a
+                            href="C:\Users\Raman\OneDrive\Desktop\js final\index.html">Sign up</a></button>
+                    <button class="btn btn-outline-success" type="submit"><a
+                            href="C:\Users\Raman\OneDrive\Desktop\js final\loginform\login.html">Log in</a></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <div class="row pt-1">
+                <div class="col-lg-8 offset-lg-3">
+                    <h1>More Tickets , More Routes</h1>
+                </div>
+                <div class="col-lg-9 offset-lg-1">
+                    <div class="inner-square">
+                        <!-- <input type="text" placeholder="From" id="from" class="filter"> -->
+                        <input type="text" id="from" placeholder="From" list="states">
+                        <datalist id="states">
+                            <option value="Chandigarh">Chandigarh</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Manali">Manali</option>
+                            <option value="Kangra">Kangra</option>
+                            <option value="Chamba">Chamba</option>
+                            <option value="Palmpur">Palmpur</option>
+                        </datalist>
+
+                        <input type="text" placeholder="To" id="to" list="states">
+                        <datalist id="states">
+                            <option value="leh">
+                            <option value="jammu">
+                            <option value="Shimla">
+                            <option value="Chamba">
+                            <option value="Delhi">
+                            <option value="Recongpeo">
+                        </datalist>
+
+                        <input type="date" placeholder="date" id="date">
+                        <button type="submit" id="submit" name="submit" onclick="validate()">Search</button>
+                        <div id="show"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row">
+                <div class="col-lg-9 offset-lg-1">
+                    <div id="show">
+
+
+                         <iframe id="show" width="800" height="600" frameborder="0"></iframe> -->
+                    <!-- </div>
+                </div>
+            </div>  -->
+        </div>
+    </section>
+    <script src="./assets/js/buslist.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
